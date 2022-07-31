@@ -80,15 +80,17 @@ class  BasicExample extends React.Component{
           <Form.Label>Please Double Click on button Explor! to show Image </Form.Label>
 
         </Form>
+        {this.state.error&& 
+     <Error error={this.state.error}
+     />
+    }
      <div className='content-table1'>
       <Table name={this.state.Name} long={this.state.long} lat={this.state.lat} urlImage={this.state.urlImage}/>
      {this.state.show
       && <Card  name={this.state.Name} long={this.state.long} lat={this.state.lat} urlImage={this.state.urlImage}/>
      }
      </div>
-    {this.state.errorImage&& 
-     <Error error={this.state.message}/>
-    }
+   
       </>
       </>
   );

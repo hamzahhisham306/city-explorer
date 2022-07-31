@@ -5,8 +5,6 @@ class  LinksExample extends React.Component {
     render() {
   return (
     <>
-     
-      
         <Alert key={1} variant='danger'>
           <Alert.Link href="#"></Alert.Link>{this.props.error}
         </Alert>
