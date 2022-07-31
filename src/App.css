@@ -1,0 +1,32 @@
+.table{
+margin-top: 50px !important;
+background-color: #3DB2FF !important;
+
+}
+button{
+  background-color: #3DB2FF !important;
+}
+
+body{
+  background-color: #FFEDDA !important;
+}
+label{
+  color: #3DB2FF !important;
+}
+
+img{
+  width: 515px !important;
+  height: 400px !important;
+  padding-bottom: 30px !important;
+}
+.card{
+  text-align: center !important;
+
+}
+.card .card-img-top{
+  width: 286px !important;
+}
+.card .card-title{
+  font-size: 15px !important;
+  
+}
